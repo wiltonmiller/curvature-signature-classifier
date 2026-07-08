@@ -1,0 +1,45 @@
+# Python
+
+__pycache__/
+
+*.py[cod]
+
+*.pyo
+
+*.pyd
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Environments
+
+.env
+
+.venv/
+
+venv/
+
+# OS files
+
+.DS_Store
+
+# Data files
+
+data/raw/*
+
+data/processed/*
+
+!data/raw/.gitkeep
+
+!data/processed/.gitkeep
+
+# Large outputs
+
+*.zip
+
+*.tar.gz
+
+*.pkl
+
+*.joblib
